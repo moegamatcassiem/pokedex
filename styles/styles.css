@@ -63,8 +63,8 @@ text-decoration: underline;
   margin-top: -20%;
 }
 
-.poketype2{
-margin-top: -20%;
+.ability{
+  margin-top: -20%;
 }
 
 @media(max-width:400px){

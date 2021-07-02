@@ -33,5 +33,7 @@ function getPokemonInfo(url) {
     document.querySelector(".height").innerHTML = `<p>Height: ${data.height}</p>`;
     document.querySelector(".weight").innerHTML = `<p>Weight: ${data.weight}</p>`;
     document.querySelector(".poketype").innerHTML = `<p>Type: ${data.types[0].type.name}`;
+    document.querySelector(".ability").innerHTML = `<p>Ability: ${data.abilities[0].ability.name}`;
+    // document.querySelector(".ability2").innerHTML = `<p>2nd Ability: ${data.abilities[1].ability.name}`;
     });
 }
